@@ -18,12 +18,18 @@ For detailed instructions on setting up the environment, refer to the [React Nat
 
 ### Run the app
 
-npm install 
+```sh
+npm install
+```
 
 ## IOS
 
+```sh
 npm run ios
+```
 
 ## Android
 
-npm run android 
+```sh
+npm run android
+```
