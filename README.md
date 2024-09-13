@@ -1,4 +1,3 @@
-Time taken on task: 2 hours 
 
 ## Build Instructions
 
