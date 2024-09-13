@@ -16,19 +16,19 @@ Before you begin, make sure you have the following tools and software installed:
 
 For detailed instructions on setting up the environment, refer to the [React Native documentation](https://reactnative.dev/docs/set-up-your-environment).
 
-### Run the app
+### Install dependencies
 
 ```sh
 npm install
 ```
 
-## IOS
+## Run on IOS
 
 ```sh
 npm run ios
 ```
 
-## Android
+## Run on Android
 
 ```sh
 npm run android
