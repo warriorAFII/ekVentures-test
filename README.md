@@ -16,7 +16,7 @@ Before you begin, make sure you have the following tools and software installed:
 
 For detailed instructions on setting up the environment, refer to the [React Native documentation](https://reactnative.dev/docs/set-up-your-environment).
 
-### Run tbe app
+### Run the app
 
 npm install 
 
