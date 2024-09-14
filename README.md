@@ -11,17 +11,24 @@ Before you begin, make sure you have the following tools and software installed:
 - Yarn
 - Android Studio (for Android development)
 - Xcode 15 (for iOS development)
+- Expo app on simulator
 
-For detailed instructions on setting up the environment, refer to the [React Native documentation](https://reactnative.dev/docs/set-up-your-environment).
+For detailed instructions on setting up the environment, refer to the [Expo docs](https://docs.expo.dev/get-started/set-up-your-environment).
 
-### Run tbe app
+### Install dependencies
 
+```sh
 npm install
+```
 
-## IOS
+## Run on IOS
 
+```sh
 npm run ios
+```
 
-## Android
+## Run on Android
 
+```sh
 npm run android
+```
