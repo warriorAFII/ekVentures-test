@@ -109,8 +109,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
   divider: {
-    height: 1,
-    backgroundColor: "#c9ccd1",
+    borderWidth: 0.3,
+
+    borderColor: "#c9ccd1",
     marginHorizontal: 20,
     marginVertical: 20,
   },
@@ -125,8 +126,8 @@ const styles = StyleSheet.create({
     paddingLeft: 20,
   },
   video: {
-    width: 150,
-    height: 270,
+    width: 160,
+    height: 280,
     borderRadius: 12,
     marginRight: 8,
   },

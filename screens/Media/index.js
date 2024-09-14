@@ -30,7 +30,7 @@ const Media = ({ videos }) => {
     <>
       <SafeAreaView style={styles.header}>
         <Text style={styles.headerText}>Media</Text>
-        <FontAwesome name="search" size={20} color="white" />
+        <FontAwesome name="video-camera" size={20} color="white" />
       </SafeAreaView>
 
       <PagerView
