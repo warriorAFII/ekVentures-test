@@ -7,6 +7,7 @@ import {
   StyleSheet,
 } from "react-native";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import Header from "../../Components/Header";
 import { Video } from "expo-av";
 
@@ -36,7 +37,7 @@ const Home = ({ videos, navigation }) => {
         <View style={styles.divider} />
 
         <View style={styles.mediaHeader}>
-          <FontAwesome name="play" size={24} color="black" />
+          <Ionicons name="play" size={24} color="black" />
           <Text style={styles.title}>Media</Text>
         </View>
 

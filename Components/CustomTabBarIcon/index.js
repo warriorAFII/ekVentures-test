@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import SimpleLineIcons from "@expo/vector-icons/SimpleLineIcons";
 
 const CustomTabBarIcon = ({ name, size, color, isActive, activeColor }) => {
   return (
@@ -10,7 +10,7 @@ const CustomTabBarIcon = ({ name, size, color, isActive, activeColor }) => {
           style={[styles.activeIndicator, { backgroundColor: activeColor }]}
         />
       )}
-      <FontAwesome name={name} size={size} color={color} />
+      <SimpleLineIcons name={name} size={size} color={color} />
     </View>
   );
 };

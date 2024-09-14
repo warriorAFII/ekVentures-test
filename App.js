@@ -47,7 +47,7 @@ export default function App() {
         sceneContainerStyle={{ backgroundColor: "transparent" }}
         screenOptions={({ route }) => ({
           tabBarStyle: {
-            backgroundColor: route.name === "Media" ? "black" : "white",
+            backgroundColor: route.name === "Media" ? "#151313" : "white",
           },
           tabBarActiveTintColor: route.name === "Media" ? "white" : "#3361BA",
           tabBarInactiveTintColor: route.name === "Media" ? "gray" : "black",
@@ -59,11 +59,11 @@ export default function App() {
             if (route.name === "Home") {
               iconName = "home";
             } else if (route.name === "Media") {
-              iconName = "play";
+              iconName = "control-play";
             } else if (route.name === "Games") {
-              iconName = "gamepad";
+              iconName = "game-controller";
             } else if (route.name === "Reports") {
-              iconName = "bar-chart";
+              iconName = "chart";
             } else if (route.name === "Account") {
               iconName = "user";
             }
